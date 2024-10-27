@@ -1,5 +1,4 @@
 package javaprimerclass.person;
 
-public class person {
-
+public class personTest {
 }
