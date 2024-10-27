@@ -2,15 +2,15 @@ package javaprimerclass.person;
 
 public class Person {
 
-    private String firstName;
-    private String lastName;
-    private String idNumber;
-    private int birthYear;
-    private String birthCountry;
-    private char gender;
+    String firstName;
+    String lastName;
+    String idNumber;
+    int birthYear;
+    String birthCountry;
+    char gender;
 
     
- public void printDetails() {
+public void printDetails() {
         System.out.println("First Name: " + firstName);
         System.out.println("Last Name: " + lastName);
         System.out.println("ID Number: " + idNumber);
@@ -27,5 +27,35 @@ public Person(String firstName, String lastName, String idNumber, int birthYear,
     this.birthYear = birthYear;
     this.birthCountry = birthCountry;
     this.gender = gender;
+}
+
+
+public String getFirstName() {
+    return firstName;
+}
+
+
+public String getLastName() {
+    return lastName;
+}
+
+
+public String getIdNumber() {
+    return idNumber;
+}
+
+
+public int getBirthYear() {
+    return birthYear;
+}
+
+
+public String getBirthCountry() {
+    return birthCountry;
+}
+
+
+public char getGender() {
+    return gender;
 }
 }
