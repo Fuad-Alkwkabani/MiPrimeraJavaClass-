@@ -1,6 +1,6 @@
 package javaprimerclass.person;
 
-public class appPerson {
+public class App {
     public static void main(String[] args) {
 
         Person person1 = new Person("Fuad", "Al kwkabani", "12345678", 1994, "Yemwn", 'M');
